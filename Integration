@@ -4,15 +4,19 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Test html</title>
+	<meta name="description" content=" La page des gens fruités">
+	<title>Fruitarium</title>
 </head>
 <body>
 	<header>
 		<main>
 			<section>
+				<p><a href="https://www.youtube.com/watch?v=jDwVkXVHIqg&ab_channel=melancholiaah" title="champignon adorable"> CLIQUE ICI POUR VOIR UN CHAMPIGNON TOUT CHOUPI</a></p>
+			</section>
+			<section>
 				<p> Les fraises des bois sont délicieuses ! </p>
-				<p> <a href="https://cdn.pixabay.com/photo/2022/01/11/19/43/avocado-6931344_960_720.jpg" target="_blank"> HEY !</a></p>
-				<img src="https://cdn.pixabay.com/photo/2022/01/11/19/43/avocado-6931344_960_720.jpg" class="avocado">
+				<p> <a href="https://cdn.pixabay.com/photo/2022/01/11/19/43/avocado-6931344_960_720.jpg" target="_blank" title="Ceci mène à un petit avocat mignon"> HEY !</a></p>
+				<img src="https://cdn.pixabay.com/photo/2022/01/11/19/43/avocado-6931344_960_720.jpg" class="avocado" alt="Ceci est un petit avocat tout mignon">
 			</section>
 				<section>
 					<div>
@@ -21,6 +25,23 @@
 						</h1>
 					</div>
 				</section>
+					<section>
+						<div>
+							<label for="name">Nom :</label>
+							<input type="text" id="name" name="user_name">
+						</div>
+						<div>
+							<label for="mail">e-mail&nbsp;:</label>
+							<input type="email" id="mail" name="user_mail">
+						</div>
+						<div>
+							<label for="msg">Message :</label>
+							<textarea id="msg" name="user_message"></textarea>
+						</div>
+						<div class="button">
+							<button type="submit">Envoyer le message</button>
+						</div>
+					</section>
 		</main>
 
 	</header>
